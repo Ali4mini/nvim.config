@@ -56,3 +56,6 @@ map(
     "<cmd>BufferLineMovePrev<cr>",
     { desc = "move current buffer to left" }
 )
+
+map({ "i" }, "<M-k>", "<Nop>", { noremap = true, silent = true })
+map({ "i" }, "<M-j>", "<Nop>", { noremap = true, silent = true })
